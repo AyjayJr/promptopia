@@ -25,9 +25,31 @@ const Nav = () => {
 			<div className="sm:flex hidden">
 				{ isUserLoggedIn ? (
 					<div className="flex gap-3 md:gap-5">
-						<Link href="/create-prompt" className="black_btn">
+						<Link
+							href="/create-prompt"
+							className="black_btn"
+						>
 							Create Post
 						</Link>
+
+						<button
+							type="button"
+							onClick={signOut}
+							className="outline_btn"
+						>
+							Sign Out
+						</button>
+
+						<Link href="/profile">
+							<Image 
+								src="/assets/images/logo.svg"
+								width={37}
+								height={37}
+								className="rounded-full"
+								alt="profile"
+							/>
+						</Link>
+
 					</div>
 					) : (
 						<>
