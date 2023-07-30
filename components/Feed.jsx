@@ -28,9 +28,15 @@ const Feed = () => {
 		console.log(posts);
 	}
 
-	const filteredPosts = posts.filter((post) => (
-		post.prompt.toLowerCase().includes(searchText.toLowerCase())
-	));
+	const filteredPosts = posts.filter((post) => { 
+		const { creator: { email, username }, prompt, tag } = post;
+		const promptMatch = prompt.toLowerCase().includes(searchText.toLowerCase());
+		const emailMatch = email.toLowerCase().includes(searchText.toLowerCase());
+		const usernameMatch = username.toLowerCase().includes(searchText.toLowerCase());
+		const tagMatch = tag.toLowerCase().includes(searchText.toLowerCase());
+
+		return promptMatch || emailMatch || usernameMatch || tagMatch;
+	});
 
 	useEffect(() => {
 		const fetchPosts = async () => {
