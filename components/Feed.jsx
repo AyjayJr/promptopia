@@ -25,7 +25,10 @@ const Feed = () => {
 	const handleSearchChange = (e) => {
 		setSearchText(e.target.value);
 		console.log(searchText);
-		console.log(posts);
+	}
+
+	const tagClickHandler = (tag) => {
+		setSearchText(tag);
 	}
 
 	const filteredPosts = posts.filter((post) => { 
@@ -64,7 +67,7 @@ const Feed = () => {
 
 			<PromptCardList
 				data={filteredPosts}
-				handleTagClick={() => {}}
+				handleTagClick={tagClickHandler}
 			/>
 
 		</section>
