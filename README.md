@@ -9,7 +9,7 @@
 
 <p>Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Designed for both seasoned writers and aspiring storytellers, <strong>Promptopia</strong> is the ultimate platform to discover, create, and share AI-powered prompts.</p>
 
-▶ Live Demo: <a href="https://foodera-landing-page.vercel.app/">Promptopia</a>
+▶ Live Demo: <a href="https://promptopia-ayjayjr.vercel.app/">Promptopia</a>
 
 <h3>Built with:</h3>
 <p>- React</p>
