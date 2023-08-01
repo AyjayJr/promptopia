@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img
+    src="public/assets/images/logo.svg"
+    alt="Promptopia logo"
+  />
+</div>
 
-## Getting Started
+<h2>About the project</h2>
 
-First, run the development server:
+<p>Embrace the power of artificial intelligence as you delve into a realm of creativity and inspiration like never before. Designed for both seasoned writers and aspiring storytellers, <strong>Promptopia</strong> is the ultimate platform to discover, create, and share AI-powered prompts.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+▶ Live Demo: <a href="https://foodera-landing-page.vercel.app/">Promptopia</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Built with:</h3>
+<p>- React</p>
+<p>- TailwindCSS</p>
+<p>- Next.Js</p>
+<p>- MongoDB Atlas</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>Screenshots of the Project 📸</h2>
+<br>
+<div align='center'>
+  <h3>Home Page</h3>
+  <p>Here you can discover and search through all the prompts shared by users. Click on a profile image and you will be taken to that user's profile.</p>
+  <img
+    src="public/assets/images/promptopia.png"
+    alt="Promptopia home page screenshot"
+  />
+</div>
+<br>
+<div align='center'>
+  <h3>Profile Page</h3>
+  <p>Your own profile page will list all the prompts you've created as well as allow you to edit or delete those prompts</p>
+  <img
+    src="public/assets/images/promptopia_my_profile.png"
+    alt="Promptopia profile page screenshot"
+  />
+</div>
+<br>
+<div align='center'>
+  <h3>Create Page</h3>
+  <img
+    src="public/assets/images/promptopia_create_post.png"
+    alt="Promptopia create post page screenshot"
+  />
+</div><br>
+<div align='center'>
+  <h3>Edit Page</h3>
+  <img
+    src="public/assets/images/promptopia_edit_post.png"
+    alt="Promptopia edit post page screenshot"
+  />
+</div>
