@@ -39,6 +39,7 @@
 <br>
 <div align='center'>
   <h3>Create Page</h3>
+  <p>Create new posts and post them to the main feed</p>
   <img
     src="public/assets/images/promptopia_create_post.png"
     alt="Promptopia create post page screenshot"
@@ -46,6 +47,7 @@
 </div><br>
 <div align='center'>
   <h3>Edit Page</h3>
+  <p>Edit any of your own existing prompts</p>
   <img
     src="public/assets/images/promptopia_edit_post.png"
     alt="Promptopia edit post page screenshot"
