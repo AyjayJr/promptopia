@@ -24,14 +24,13 @@ const Feed = () => {
 
 	const handleSearchChange = (e) => {
 		setSearchText(e.target.value);
-		console.log(searchText);
 	}
 
 	const tagClickHandler = (tag) => {
 		setSearchText(tag);
 	}
 
-	const filteredPosts = posts.filter((post) => { 
+	const filterPosts = posts.filter((post) => { 
 		const { creator: { email, username }, prompt, tag } = post;
 		const promptMatch = prompt.toLowerCase().includes(searchText.toLowerCase());
 		const emailMatch = email.toLowerCase().includes(searchText.toLowerCase());
@@ -45,7 +44,6 @@ const Feed = () => {
 		const fetchPosts = async () => {
 			const response = await fetch('/api/prompt');
 			const data = await response.json();
-
 			setPosts(data);
 		}
 
@@ -66,7 +64,7 @@ const Feed = () => {
 			</form>
 
 			<PromptCardList
-				data={filteredPosts}
+				data={filterPosts}
 				handleTagClick={tagClickHandler}
 			/>
 
